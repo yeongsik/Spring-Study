@@ -158,16 +158,16 @@ MemberService memberService = applicationContext.getBean("memberService", Member
 
 ### **ApplicationContext에 의존성 주입은 어떻게 가능?**
 
-![ioc1.png](https://github.com/yeongsik/Spring-Study/src/main/resources/image/ioc1.png)
+![ioc1.png](https://github.com/yeongsik/Spring-Study/blob/master/src/main/resources/image/ioc1.png)
 
 - 댓글에 해당 질문에 답이 등록되어 있지 않아서(서포터즈에 답글이 있지만 내부 초기화가 복잡하다는 답변) chatGPT에서 물어봤습니다.
 - 우선 의존성 주입은 스프링 컨테이너가 생성되고 의존관계가 설정된 후에야 사용하는 개념
 - ApplicationContext의 생성자 파라미터에 어떤 파일형태가 들어가냐에 따라 BeanDefinitionReader 구현체가 결정된다.
 - chatGPT 답변
     
-    ![ioc2.png](https://github.com/yeongsik/Spring-Study/src/main/resources/image/ioc2.png)
+    ![ioc2.png](https://github.com/yeongsik/Spring-Study/blob/master/src/main/resources/image/ioc2.png)
     
-    ![ioc3.png](https://github.com/yeongsik/Spring-Study/src/main/resources/image/ioc3.png)
+    ![ioc3.png](https://github.com/yeongsik/Spring-Study/blob/master/src/main/resources/image/ioc3.png)
     
 
 # 정리
